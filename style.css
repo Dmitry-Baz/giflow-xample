@@ -1,0 +1,16 @@
+
+h1 {
+    position: relative;
+    width: 220px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+  }
+  h1::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 120px;
+    background-image: linear-gradient(to right, transparent, #fff);
+  }
