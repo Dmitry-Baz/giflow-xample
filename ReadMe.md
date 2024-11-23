@@ -7,3 +7,6 @@
 # git branch feature/main-page, создали новую ветку с именем `feature/main-page` в вашем Git-репозитории. 
 # git checkout feature/main-page
 # git checkout -b feature/main-page
+#  git add .
+# 
+# git checkout -b feature/about-page
